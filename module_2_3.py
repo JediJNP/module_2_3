@@ -5,7 +5,7 @@ while current_item <= len(my_list):
     if my_list[current_item] > 0:
         print(my_list[current_item])
     current_item = current_item + 1
-    if my_list[current_item] < 0:
-        break
     if my_list[current_item] == 0:
+        continue
+    if my_list[current_item] < 0:
         break
